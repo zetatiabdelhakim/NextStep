@@ -1,0 +1,224 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  
+  align-items: center;
+  justify-content: center;
+
+}
+.slide-container{
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+  position: relative;
+  margin-bottom: 600px;
+  margin-top: 700px;
+  
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #34b1c4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #34b1c4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #34b1c4;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #34b1c4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #34b1c4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #34b1c4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+.container1 {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 150px;
+  background-color: #EFEFEF;
+}
+.slide-container1 {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card1 {
+  background: #fff;
+  border-radius: 8px;
+  
+}
+.card1 .image-box1 {
+  height: 200px;
+}
+.card1 .image-box1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card1 .profile-details1 {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card1 .profile-details1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details1 .name1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details1 .job1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn1 {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
+.swiper-navBtn1::before,
+.swiper-navBtn1::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet1 {
+  background-color: #000;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn1 {
+    display: none;
+  }
+}
+.card1:hover {
+  transform: scale(1.02);
+  animation-delay: 0.5s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card:hover {
+  transform: scale(1.01);
+  animation-delay: 0.5s;
+}
+

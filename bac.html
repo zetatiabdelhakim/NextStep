@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NextStep - Baccalauréat Marocaine</title>
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style2.css">
+
+        <!-- Loading Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Loading Template CSS -->
+        <link href="css/style1.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/style-magnific-popup.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="css/fonts.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
+
+        <!-- Font Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+                                        
+    </head>
+    <body style="background-color: #EFEFEF;">
+        <!--begin header -->
+    <header class="header">
+
+        <!--begin nav -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            
+            <!--begin container -->
+            <div class="container">
+        
+                <!--begin navbar -->
+                <div class="navbar-header">
+                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                                                    
+                    <a href="index.html" class="navbar-brand brand scrool"><span class="blue">Next</span>Step</a>
+                </div>
+                        
+                <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">			      
+                        <li><a href="#home">Acceuil</a></li>
+                        <li><a href="#Quiz">Quizzes</a></li>
+                        <li><a href="#ecoles">écoles</a></li>
+                        <li id="link"><a>Se déconnecter</a></li>
+                        <script>
+                            let A = document.getElementById("link")
+                            A.onclick=function(){window.location = "index.html";}</script>
+                        <li><a href="#contact" class="purchase scrool">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <!--end navbar -->
+                                    
+            </div>
+    		<!--end container -->
+            
+        </nav>
+    	<!--end nav -->
+        
+    </header>
+    <!--end header -->
+    
+    <!--begin home_wrapper -->
+    <section id="home" class="home-wrapper" style="background: url(../images/bg1.jpg);">
+
+        <!--begin gradient_overlay -->
+        <div class="gradient_overlay"></div>
+        <!--end gradient_overlay -->
+        
+        <!--begin container-->
+        <div class="container home-wrappe-inside"> 
+            
+            <!--begin row-->
+            <div class="row">
+                
+                <!--begin col-md-12-->
+                <div class="col-md-12 text-center">
+                    
+                    <h1 id="bacMsg" class="home-title wow fadeIn" data-wow-delay="0.5s">Bienvenue Cher Bachelier!</h1>
+                    <div class="separator_wrapper">
+                        <i class="icon icon-star-two red"></i>
+                    </div>
+                    <p class="home-subtitle wow fadeIn" data-wow-delay="1s">
+                        Les bacheliers marocains se posent plusieurs questions quant à leur avenir académique et professionnel.Chaque étudiant marocain optera pour l’établissement ou l’institut qui le rapproche le plus de ses ambitions. Et pour faire le meilleur choix, il faut déjà connaître les différentes offres concernant les études supérieures au Maroc.<br>Pour Cela, Vous trouverez dans ce qui suit une liste des écoles et facultés marocaines où vous pouvez suivre votre parcours Académiques.<br>Ainsi, pour vous aidez à découvrir vos préférences et à choisir le domaine qui va le mieux avec vos ambitions, on a créé quelques Quizzes amusants pour vous.    
+                    </p>
+                    <h3 style="color: #ffff;">Bonne Chance!</h3> 
+                </div>
+                <!--end col-md-12-->
+                
+            </div>
+            <!--end row-->
+              
+        </div>
+        <!--end container-->
+        
+    </section>
+        <!--end home_wrapper -->
+        
+        <section class="quizz" style="background-color: #EFEFEF;">
+            <div id="Quiz" class="container1 swiper1">
+                <h1 style="font-size: 50px; padding-bottom: 10px;">Les Quizzes</h1>
+                <div class="slide-container1">
+                  <div class="card-wrapper1 swiper-wrapper">
+                    <div class="card1 swiper-slide">
+                        <a href="quiz info/html.html"><div class="image-box1">
+                          <img src="images/showImg/fullDev.jpg" alt="" />
+                        </div>
+                        <div class="profile-details1">
+                          
+                          <div class="name-job1">
+                            <h3 class="name1">Quiz informatique</h3>
+                            <h4 class="job1">20 questions / 7 minutes</h4>
+                          </div>
+                        </div></a>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <a href="quiz meca/html.html">
+                        <div class="image-box1">
+                          <img src="images/mecanique-erp.webp" alt="" />
+                        </div>
+                        <div class="profile-details1">
+                          
+                          <div class="name-job1">
+                            <h3 class="name1">Quiz Mécanique</h3>
+                            <h4 class="job1">10 questions / 5 minutes</h4>
+                          </div>
+                        </div></a>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <a href="quiz electrique/html.html">
+                        <div class="image-box1">
+                          <img src="images/Pylones.jpg" alt="" />
+                        </div>
+                        <div class="profile-details1">
+                          <div class="name-job1">
+                            <h3 class="name1">Quiz Electrique</h3>
+                            <h4 class="job1">10 questions / 5 minutes</h4>
+                          </div>
+                        </div></a>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <a href="quiz statistique/html.html">
+                        <div class="image-box1">
+                          <img src="images/showImg/dataAna.jpg" alt="" />
+                        </div>
+                        <div class="profile-details1">
+                          
+                          <div class="name-job1">
+                            <h3 class="name1">Quiz Statistiques/Data Analyst</h3>
+                            <h4 class="job1">15 questions / 6 minutes</h4>
+                          </div>
+                        </div></a>
+                    </div>
+                </div>
+                <!--<div class="swiper-button-next1 swiper-navBtn1"></div>
+                <div class="swiper-button-prev1 swiper-navBtn1"></div>-->
+                <center><div class="swiper-pagination1" style="margin-top: 20px;"></div></center>
+            </div>  
+        </section>
+        <section class="schol" style="background-color: #EFEFEF;">
+            <div id="ecoles" class="slide-container swiper">
+                <h1 style="font-size: 50px; padding-bottom: 10px;">Les Ecoles Supérieurs</h1>
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/ensam.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">ENSAM</h2>
+                                <p class="description">Ecole Nationalle Supérieure d'Art et de Métiers<br>Ecole d'ingénierie Post-Bac</p>
+    
+                                <a href="http://ensam-casa.ma" target="_blank"><button class="button">View More</button></a> 
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/ph-iscae-corporate.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">ISCAE</h2>
+                                <p class="description">Institut Supérieure de Commerce et Administration des Entreprises<br>Post-Bac</p>
+    
+                                <a href="https://www.groupeiscae.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/61185796-44651401.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">ENCG</h2>
+                                <p class="description">Ecole Nationalle de Commerce et Gestion<br>Post-Bac</p>
+    
+                                <a href="https://www.encg.umi.ac.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/ENA.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">ENA</h2>
+                                <p class="description">Ecole Nationalle d'Architecture<br>Post-Bac</p>
+    
+                                <a href="http://www.archi.ac.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/FMP-Fes.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">FMP</h2>
+                                <p class="description">Faculté de Medcine et de Pharmacie<br>Post-Bac</p>
+    
+                                <a href="http://fmp.um5.ac.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/5769e351a40580c79543afa1c933b0bd.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">IAV</h2>
+                                <p class="description">Institut Agronomique et Vétérinaire Hassan-II<br>Post-Bac</p>
+    
+                                <a href="https://iav.ac.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/ENSA-Marrakech.webp" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">ENSA</h2>
+                                <p class="description">Ecole Nationalle des Sciences Appliqués<br>Ecole d'ingénierie Post-Bac</p>
+    
+                                <a href="https://www.ensa.ac.ma/futurEtudiant.php" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/cropped-photo-2020-08-04-21-12-13-1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">CPGE</h2>
+                                <p class="description">Classes Préparatoires Aux Grandes Ecoles<br>Post-Bac</p>
+    
+                                <a href="https://www.cpge.ac.ma/" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/162981085_383779136178521_5628233980442523913_n.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Les facultés</h2>
+                                <p class="description">Système LMD<br>Post-Bac</p>
+    
+                                <a href="https://www.9rayti.com/ecoles/facultes-marocaines" target="_blank"><button class="button">View More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+
+      <!--begin contact -->
+    <section class="section-dark" id="contact">
+        
+        <!--begin container-->
+        <div class="container">
+    
+            <!--begin row-->
+            <div class="row margin-bottom-50">
+            
+                <!--begin col-md-10-->
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h2 class="section-title grey">Contactez-Nous</h2>
+                    
+                    <div class="separator_wrapper_white">
+                        <i class="icon icon-star-two grey"></i>
+                    </div>
+                    <p class="section-subtitle grey">Vos questions,remarques,appréciation ou critiques sont toujours les bienvennus.</p>
+
+                </div>
+                <!--end col-md-10-->
+            
+            </div>
+            <!--end row-->
+            
+            <!--begin row-->
+            <div class="row">
+        
+                <!--begin success message -->
+                <p class="contact_success_box" style="display:none;">We received your message and you'll hear from us soon. Thank You!</p>
+                <!--end success message -->
+                
+                <!--begin contact form -->
+                <form id="contact-form" class="contact" action="php/contact.php" method="post">
+                    <!--begin col-md-6-->
+                    <div class="col-md-12">
+                       <center> <textarea class="contact-commnent white-input" rows="2" cols="20" name="contact_message" placeholder="Votre Message..."></textarea></center>
+                    </div>
+                    <!--end col-md-6-->
+                    
+                    <!--begin col-md-12-->
+                    <div class="col-md-12">
+                        <input value="Envoyez" id="submit-button" class="contact-submit" type="submit">
+                    </div>
+                    <!--end col-md-12-->
+                    
+                </form>
+                <!--end contact form -->
+            
+            </div>
+            <!--end row-->
+            
+      </div>
+      <!--end container-->
+            
+    </section>
+    <!--end contact-->
+    <!--begin footer -->
+    <div class="footer">
+            
+        <!--begin container -->
+        <div class="container">
+        
+            <!--begin row -->
+            <div class="row">
+            
+                <!--begin col-md-12 -->
+                <div class="col-md-12 text-center">
+                    
+                    <!--begin copyright -->
+                    <div class="copyright">
+                        <p class="footer-logo"><span class="blue">Next</span>Step</p>
+                    </div>
+                    <!--end copyright -->
+                                                    
+                    <!--begin footer_social -->
+                    <ul class="footer_social">
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-skype"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-dribble"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end footer_social -->
+                    
+                </div>
+                <!--end col-md-6 -->
+                
+            </div>
+            <!--end row -->
+            
+        </div>
+        <!--end container -->
+                
+    </div>
+    <!--end footer -->  
+        
+    </body>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo-min.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/plugins.js"></script>
+</html>
